@@ -28,9 +28,6 @@
 	</div>
 	<div id="toplinks">
 		<div class="toplinkstext">
-			<!--<ul class="links-menu">
-				<?php require( '2_menu.php' ); ?>
-			</ul>-->
 			<?php wp_nav_menu( array( 'theme_location'=>'standard', 'menu_class' => 'links-menu', 'container' =>''  ) ); ?>
 		</div>
 	</div>
