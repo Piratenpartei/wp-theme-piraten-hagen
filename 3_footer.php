@@ -16,7 +16,7 @@
 			Mitmachen
 			<ul class="menu">
 				<li class="leaf"><a href="https://wiki.piratenpartei.de/Spenden">Spenden</a></li>
-				<li class="leaf"><a href="/regionaltreffs">Regionaltreffs</a></li>
+				<li class="leaf"><a href="http://kinzigpiraten.de/treffen">Stammtische</a></li>
 				<li class="expanded"><a href="https://wiki.piratenpartei.de/NRW:Parteiprogramm">Parteiprogramm</a>
 					<ul class="menu">
 						<li class="leaf"><a href="https://wiki.piratenpartei.de" title="Im Piratenwiki mitarbeiten.">Piratenwiki</a></li>
@@ -31,7 +31,7 @@
 			Organisation
 			<ul class="menu">
 				<li class="leaf"><a href="http://www.piratenpartei.de" title="Informationen zum Bundesverband der Piratenpartei ansehen.">Bundesverband</a></li>
-				<li class="leaf"><a href="http://www.piratenpartei-nrw.de" title="Informationen zum Landesverband der Piratenpartei ansehen.">Landesverband</a></li>
+				<li class="leaf"><a href="http://www.piratenpartei-hessen.de" title="Informationen zum Landesverband der Piratenpartei ansehen.">Landesverband</a></li>
 			</ul>
 		</div>
 		<div id="fussr"><!-- rechts mittig -->
@@ -48,10 +48,10 @@
 	</div>
 	<div id="fussunten"></div>
 	<div id="fusslinie">
-		<a href="/kontakt">Kontakt</a>&nbsp;&#x25cf; <a href="/impressum">Impressum</a>&nbsp;&#x25cf; <a href="http://www.piratenpartei.de/">Piratenpartei Deutschland</a>&nbsp;&#x25cf; <a href="http://wiki.piratenpartei.de/NRW">Piratenpartei Landesverband NRW</a>&nbsp;&#x25cf; <a href="http://www.junge-piraten.de/">Junge Piraten</a>
+		<a href="/kontakt">Kontakt</a>&nbsp;&#x25cf; <a href="/impressum">Impressum</a>&nbsp;&#x25cf; <a href="http://www.piratenpartei.de/">Piratenpartei Deutschland</a>&nbsp;&#x25cf; <a href="http://piratenpartei-hessen.de/">Piratenpartei Landesverband Hessen</a>&nbsp;&#x25cf; <a href="http://www.junge-piraten.de/">Junge Piraten</a>
 		<div id="serverinfo">
 			WordPress mit <em>piratenhagen</em> bzw. <em>piratenmk</em> Theme<br/>
-			<a href="http://wiki.piratenpartei.de/images/6/62/We_.jpg">Design</a> von <a href="http://wiki.piratenpartei.de/Benutzer:Seeki">Seeki</a>, umgesetzt von <a href="http://wiki.piratenpartei.de/Benutzer:hatch">hatch</a> und <a href="">Tilli</a> und den <a href="http://piraten-hagen.de/">Piraten Hagen</a>, WordPress Theme von <a href="http://wiki.piratenpartei.de/Benutzer:motorradblogger">motorradblogger</a>, <a href="http://piratenpartei-iserlohn.de">Lenne Piraten</a>.
+			<a href="http://wiki.piratenpartei.de/images/6/62/We_.jpg">Design</a> von <a href="http://wiki.piratenpartei.de/Benutzer:Seeki">Seeki</a>, umgesetzt von <a href="http://wiki.piratenpartei.de/Benutzer:hatch">hatch</a> und <a href="">Tilli</a> und den <a href="http://piraten-hagen.de/">Piraten Hagen</a>, WordPress Theme von <a href="http://wiki.piratenpartei.de/Benutzer:motorradblogger">motorradblogger</a>, <a href="http://piratenpartei-iserlohn.de">Lenne Piraten</a>, <a href="http://campino2k.de">campino2k</a>
 		</div>
 		<?php wp_footer(); ?>
 	</div>
