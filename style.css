@@ -2,7 +2,7 @@
 Theme Name: piratenmk
 Theme URI: http://piratenpartei-iserlohn.de/wordpress_theme
 Description: Special theme for Piratenpartei WordPress Blogs
-Author: Marc Schieferdecker, raufaser
+Author: Marc Schieferdecker, raufaser; Christian Jung, campino2k
 Author URI:  http://thegeek.de
 Version: 1.2 alpha
 Tags: piratenpartei, piraten, politik, politics
@@ -315,7 +315,16 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	text-decoration:underline;
 }
 .post .post-content {
-	line-height:160%;
+	line-height:1.6;
+}
+.post .post-content h1,
+.post .post-content h2,
+.post .post-content h3,
+.post .post-content h4,
+.post .post-content h5,
+.post .post-content h6
+{
+	line-height:1.2;
 }
 .post .post-content a {
 	color: black;
@@ -340,6 +349,7 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 .post .post-content p {
 	margin: 1em 0;
 }
+
 .post .post-footer {
 	font-size: 0.9em;
 	margin-bottom:30px;
