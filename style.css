@@ -8,7 +8,11 @@ Version: 1.2 alpha
 Tags: piratenpartei, piraten, politik, politics
 License: Creative-Commons-by-nc-nd-3.0-Deutschland-Lizenz
 .
-Wichtig: Bitte die Theme-Dateien 1_heimathafen.php, 2_menu.php und 3_footer.php auf die eigenen Bedürfnisse anpassen, bzw. mit eigenen Links versehen! Danke!
+Wichtig: Bitte die Theme-Datei footer.php auf die eigenen Bedürfnisse anpassen, bzw. mit eigenen Links versehen! Danke!
+
+Außerdem müssen 2 Menüs erstellt werden, welche den Menüplatzhaltern "Standard" (Hauptmenü) und "Siteservice" zugeordet werden müssen.
+
+
 .
 */
 
@@ -44,10 +48,10 @@ ul.menu li, .sidebar li.widget_pages ul li {
 	padding-bottom: 1px;
 	padding-left: 22px;
 }
-ul.menu li.leaf, .sidebar li.widget_pages ul li {
+ul li.leaf, .sidebar li.widget_pages ul li {
 	background: #e6eef4 left 8px no-repeat url('images/leaf.png');
 }
-ul.menu li.collapsed, .sidebar li.widget_pages ul li {
+ul li.collapsed, .sidebar li.widget_pages ul li {
 	background: #e6eef4 left 8px no-repeat url('images/leaf.png');
 }
 ul.menu li.expanded {
@@ -328,10 +332,12 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 }
 .post .post-content a {
 	color: black;
-	text-decoration: none;
+	text-decoration: underline;
+	background: transparent url('images/inline-link-before.png') no-repeat left center;
+	padding-left: 10px;
 }
 .post .post-content a:before {
-	content: url('images/inline-link-before.png');
+	/*content: url('images/inline-link-before.png');*/
 }
 .post .post-content a:hover {
 	color: darkorange;
@@ -349,15 +355,38 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 .post .post-content p {
 	margin: 1em 0;
 }
-
+.post .post-content .alignleft,
+.post .post-content img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.post .post-content .alignright,
+.post .post-content img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.post .post-content .aligncenter,
+.post .post-content img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.post .post-content img.alignleft,
+.post .post-content img.alignright,
+.post .post-content img.aligncenter {
+	margin-bottom: 12px;
+}
 .post .post-footer {
 	font-size: 0.9em;
 	margin-bottom:30px;
 }
 .post .post-footer .post-comment-link {
-
 	display: inline-block;
-
 	height: 30px;
 
 }
@@ -425,25 +454,27 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	font-size: 11pt;
 	font-weight: bold;
 }
-#fussmitte ul.menu {
-	margin-left: 1px;
+#fussmitte ul {
 	margin-top: 4px;
+	list-style-image: url("images/inline-link-before.png");
+	margin-left: 2em;
 }
-#fussmitte ul.menu li {
-	background-image: url('images/inline-link-before.png');
-	background-position: left 5px;
+#fussmitte ul li {
+	/*background-image: url('images/inline-link-before.png');
+	background-position: left 5px;*/
+	list-style-image: url("images/inline-link-before.png");
 	line-height: 12pt;
-	margin: 0;
-	padding-bottom: 0;
-	padding-left: 11px;
-	padding-top: 0;
+	x-margin: 0;
+	x-padding-bottom: 0;
+	x-padding-left: 11px;
+	x-padding-top: 0;
 }
-#fussmitte ul.menu li ul.menu {
+#fussmitte ul li ul {
 	margin-top: 0;
 	margin-bottom: 1px;
 	padding-bottom: 0;
 }
-#fussmitte ul.menu li ul.menu li {
+#fussmitte ul li ul li {
 	line-height: 12pt;
 }
 
