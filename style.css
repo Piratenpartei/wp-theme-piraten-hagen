@@ -336,6 +336,10 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	background: transparent url('images/inline-link-before.png') no-repeat left center;
 	padding-left: 10px;
 }
+.post .post-content a.hasimage {
+	padding-left:0;
+	background: none;
+}
 .post .post-content a:before {
 	/*content: url('images/inline-link-before.png');*/
 }
