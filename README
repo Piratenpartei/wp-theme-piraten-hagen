@@ -1,0 +1,19 @@
+/*
+ * README
+ */
+
+Portierung des Piraten Hagen Themes von Seeki
+
+WICHTIG:
+
+Es müssen zwei Menüs angelegt werden und eines davon dem Siteservice und eines dem Standard-Platzhalter zugewiesen werden.
+
+== Autoren == 
+
+  * Design: Seeki
+  * hatch http://wiki.piratenpartei.de/Benutzer:hatch
+  * Tilli
+  * Piraten Hagen http://piraten-hagen.de/
+  * Marc Schieferdecker http://wiki.piratenpartei.de/Benutzer:motorradblogger
+  * Lenne Piraten http://piratenpartei-iserlohn.de/
+  * Chris Jung http://campino2k.de/
