@@ -359,6 +359,12 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 .post .post-content p {
 	margin: 1em 0;
 }
+
+.post .post-content hr {
+	margin: 1em 0;
+	border-top: 1px dotted #999;
+	border-collapse: collapse;
+}
 .post .post-content .alignleft,
 .post .post-content img.alignleft {
 	display: inline;
