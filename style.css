@@ -391,6 +391,32 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 .post .post-content img.aligncenter {
 	margin-bottom: 12px;
 }
+
+.post .post-content .wp-caption {
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #F3F3F3;
+	border: 1px solid #DDDDDD;
+	margin: 10px;
+	padding-top: 4px;
+	text-align: center;
+}
+.post .post-content .wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+.post .post-content .wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+.post .post-content .wp-caption-text {
+	margin: 0.2em;
+}
+
 .post .post-footer {
 	font-size: 0.9em;
 	margin-bottom:30px;
