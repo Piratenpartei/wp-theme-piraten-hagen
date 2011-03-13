@@ -418,6 +418,7 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 }
 
 .post .post-footer {
+	clear: both;
 	font-size: 0.9em;
 	margin-bottom:30px;
 }
