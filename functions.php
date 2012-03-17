@@ -7,6 +7,7 @@ function theme_setup() {
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menu( 'standard','Standard' );
 	register_nav_menu( 'siteservice','Siteservice' );
+	register_nav_menu( 'footer-menu','Footer Links');
 
 	if ( ! isset( $content_width ) )
 		$content_width = 500;

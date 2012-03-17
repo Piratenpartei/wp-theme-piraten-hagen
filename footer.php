@@ -28,10 +28,10 @@
 	</div>
 	<div id="fussunten"></div>
 	<div id="fusslinie">
-		<a href="/kontakt">Kontakt</a>&nbsp;&#x25cf; <a href="/impressum">Impressum</a>&nbsp;&#x25cf; <a href="http://www.piratenpartei.de/">Piratenpartei Deutschland</a>&nbsp;&#x25cf; <a href="http://piratenpartei-hessen.de/">Piratenpartei Landesverband Hessen</a>&nbsp;&#x25cf; <a href="http://www.junge-piraten.de/">Junge Piraten</a>
+		<?php wp_nav_menu( array('theme-location' => 'footer-menu', 'menu-class' => 'footer-links', 'container' => '')); ?>
 		<div id="serverinfo">
 			WordPress mit <em>piratenhagen</em> bzw. <em>piratenmk</em> Theme<br/>
-			<a href="http://wiki.piratenpartei.de/images/6/62/We_.jpg">Design</a> von <a href="http://wiki.piratenpartei.de/Benutzer:Seeki">Seeki</a>, umgesetzt von <a href="http://wiki.piratenpartei.de/Benutzer:hatch">hatch</a> und <a href="">Tilli</a> und den <a href="http://piraten-hagen.de/">Piraten Hagen</a>, WordPress Theme von <a href="http://wiki.piratenpartei.de/Benutzer:motorradblogger">motorradblogger</a>, <a href="http://piratenpartei-iserlohn.de">Lenne Piraten</a>, <a href="http://campino2k.de">campino2k</a>
+			Design von <a href="http://wiki.piratenpartei.de/Benutzer:Seeki">Seeki</a>, umgesetzt von <a href="http://wiki.piratenpartei.de/Benutzer:hatch">hatch</a> und Tilli und den <a href="http://piraten-hagen.de/">Piraten Hagen</a>, WordPress Theme von <a href="http://wiki.piratenpartei.de/Benutzer:motorradblogger">motorradblogger</a>, <a href="http://piratenpartei-iserlohn.de">Lenne Piraten</a>, <a href="http://campino2k.de">campino2k</a>
 		</div>
 		<?php wp_footer(); ?>
 	</div>
