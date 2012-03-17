@@ -133,7 +133,6 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 /* Oberer Kopfbereich */
 #oben {
 	background-color: transparent;
-	background-image: url('images/hintergrundoben.png');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center top;

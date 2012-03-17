@@ -11,8 +11,36 @@ function theme_setup() {
 
 	if ( ! isset( $content_width ) )
 		$content_width = 500;
+	
+	// Setup for dynamic header image
+	define('HEADER_TEXTCOLOR', 'ffffff');
+	define('HEADER_IMAGE', '%s/images/hintergrundoben.png'); // %s is the template dir uri
+	define('HEADER_IMAGE_WIDTH', 964); // use width and height appropriate for your theme
+	define('HEADER_IMAGE_HEIGHT', 130);
+
+	add_custom_image_header('header_style', 'admin_header_style');
 
 
+}
+
+// called in wp_head, needed for custom image header
+function header_style() {
+    ?><style type="text/css">
+        #oben {
+            background: url(<?php header_image(); ?>);
+        }
+    </style><?php
+}
+
+// called in admin menu, needed for custom image header
+function admin_header_style() {
+    ?><style type="text/css">
+        #headimg {
+            width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
+            height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
+            background: no-repeat;
+        }
+    </style><?php
 }
 
 add_action( 'widgets_init', 'theme_widgets_setup' );
