@@ -13,7 +13,8 @@ function theme_setup() {
 		$content_width = 500;
 	
 	// Setup for dynamic header image
-	define('HEADER_TEXTCOLOR', 'ffffff');
+	define('NO_HEADER_TEXT', true );
+	define('HEADER_TEXTCOLOR', '');
 	define('HEADER_IMAGE', '%s/images/hintergrundoben.png'); // %s is the template dir uri
 	define('HEADER_IMAGE_WIDTH', 964); // use width and height appropriate for your theme
 	define('HEADER_IMAGE_HEIGHT', 130);
