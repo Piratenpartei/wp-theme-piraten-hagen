@@ -564,8 +564,9 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	margin: 5px;
 }
 
-#fusslinie .menu li {
+.footer-links li {
 	display: inline;
+	list-style-type:none;
 }
 
 #serverinfo {
