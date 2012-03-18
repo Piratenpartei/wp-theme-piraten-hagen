@@ -32,8 +32,6 @@
 		</div>
 	</div>
 	<div id="container">
-		<div id="links">
-			<div id="sidebar_left" class="sidebar">
-				<?php require( 'sidebar_left.php' ); ?>
-			</div>
+		<div id="links">			
+			<?php require( 'sidebar_left.php' ); ?>
 		</div>
