@@ -5,7 +5,7 @@ add_action( 'after_setup_theme', 'theme_setup' );
 function theme_setup() {
 
 	// This theme uses wp_nav_menu() in three locations.
-	register_nav_menu( 'standard','Standard' );
+	register_nav_menu( 'standard','Hauptmenü' );
 	register_nav_menu( 'siteservice','Siteservice' );
 	register_nav_menu( 'footer-menu','Footer Links');
 

@@ -5,8 +5,7 @@
 Portierung des Piraten Hagen Themes von Seeki
 
 WICHTIG:
-
-Es müssen zwei Menüs angelegt werden und eines davon dem Siteservice und eines dem Standard-Platzhalter zugewiesen werden.
+Es müssen drei Menüs angelegt werden. Eines ist dem Hauptmenü, eines dem Siteservice und einem dem Footer zuzuweisen.
 
 == Autoren == 
 
@@ -17,6 +16,7 @@ Es müssen zwei Menüs angelegt werden und eines davon dem Siteservice und eines
   * Marc Schieferdecker http://wiki.piratenpartei.de/Benutzer:motorradblogger
   * Lenne Piraten http://piratenpartei-iserlohn.de/
   * Chris Jung http://campino2k.de/
+  * JustThomas
 
 
 == Lizenz ==
