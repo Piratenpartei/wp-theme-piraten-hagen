@@ -4,7 +4,7 @@ Theme URI: http://piratenpartei-iserlohn.de/wordpress_theme
 Description: Special theme for Piratenpartei WordPress Blogs
 Author: Marc Schieferdecker, raufaser; Christian Jung, campino2k; JustThomas
 Author URI:  http://thegeek.de
-Version: 1.4 alpha
+Version: 1.5 alpha
 Tags: piratenpartei, piraten, politik, politics
 License: Creative-Commons-by-nc-nd-3.0-Deutschland-Lizenz
 .
@@ -105,13 +105,13 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	top: 0px;
 	left: 0px;
 }
-#heimathafen ul.menu {
+#heimathafen-nav {
 	position: relative;
 	text-align: right;
 	width: 964px;
 	margin:auto;
 }
-#heimathafen ul.menu li {
+#heimathafen-nav li {
 	background: url('images/blickfang_heimathafen.png') no-repeat top center;
 	display: inline;
 	font-size: 12px;
@@ -121,11 +121,11 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	padding: 0 10px;
 	padding-top: 10px;
 }
-#heimathafen ul.menu li a:hover {
+#heimathafen-nav li a:hover {
 	color: black;
 	text-decoration: underline;
 }
-#heimathafen ul.menu li a.active {
+#heimathafen-nav li a.active {
 	color: black;
 }
 
@@ -170,19 +170,19 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	background: #F89728 url('images/blickfang_toplinks.png') bottom center no-repeat;
 	color: white;
 }
-.toplinkstext ul.links-menu {
+#toplinks-nav {
 	padding-top: 4px;
 }
-.toplinkstext ul.links-menu li.last a {
+#toplinks-nav li.last a {
 
 }
-.toplinkstext ul.links-menu li {
+#toplinks-nav li {
 	display: inline-block;
 	max-width: 110px;
 	padding: 0 0 0 7px;
 	text-align: center;
 }
-.toplinkstext ul.links-menu li:hover {
+#toplinks-nav li:hover {
 
 }
 
@@ -565,8 +565,9 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 }
 
 .footer-links li {
-	display: inline;
+	display: inline-block;
 	list-style-type:none;
+	margin:5px 10px;
 }
 
 #serverinfo {
