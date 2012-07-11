@@ -1,16 +1,15 @@
 /*
-Theme Name: piratenmk
+Theme Name: piratenmk JustThomas fork
 Theme URI: http://piratenpartei-iserlohn.de/wordpress_theme
 Description: Special theme for Piratenpartei WordPress Blogs
-Author: Marc Schieferdecker, raufaser; Christian Jung, campino2k
+Author: Marc Schieferdecker, raufaser; Christian Jung, campino2k; JustThomas
 Author URI:  http://thegeek.de
-Version: 1.2 alpha
+Version: 1.5 alpha
 Tags: piratenpartei, piraten, politik, politics
 License: Creative-Commons-by-nc-nd-3.0-Deutschland-Lizenz
 .
-Wichtig: Bitte die Theme-Datei footer.php auf die eigenen Bedürfnisse anpassen, bzw. mit eigenen Links versehen! Danke!
 
-Außerdem müssen 2 Menüs erstellt werden, welche den Menüplatzhaltern "Standard" (Hauptmenü) und "Siteservice" zugeordet werden müssen.
+Es müssen 3 Menüs erstellt werden, welche den Menüplatzhaltern "Hauptmenü", "Siteservice" und "Footer" zugeordet werden müssen.
 
 
 .
@@ -106,13 +105,13 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	top: 0px;
 	left: 0px;
 }
-#heimathafen ul.menu {
+#heimathafen-nav {
 	position: relative;
 	text-align: right;
 	width: 964px;
 	margin:auto;
 }
-#heimathafen ul.menu li {
+#heimathafen-nav li {
 	background: url('images/blickfang_heimathafen.png') no-repeat top center;
 	display: inline;
 	font-size: 12px;
@@ -122,18 +121,17 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	padding: 0 10px;
 	padding-top: 10px;
 }
-#heimathafen ul.menu li a:hover {
+#heimathafen-nav li a:hover {
 	color: black;
 	text-decoration: underline;
 }
-#heimathafen ul.menu li a.active {
+#heimathafen-nav li a.active {
 	color: black;
 }
 
 /* Oberer Kopfbereich */
 #oben {
 	background-color: transparent;
-	background-image: url('images/hintergrundoben.png');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center top;
@@ -172,19 +170,19 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	background: #F89728 url('images/blickfang_toplinks.png') bottom center no-repeat;
 	color: white;
 }
-.toplinkstext ul.links-menu {
+#toplinks-nav {
 	padding-top: 4px;
 }
-.toplinkstext ul.links-menu li.last a {
+#toplinks-nav li.last a {
 
 }
-.toplinkstext ul.links-menu li {
+#toplinks-nav li {
 	display: inline-block;
 	max-width: 110px;
 	padding: 0 0 0 7px;
 	text-align: center;
 }
-.toplinkstext ul.links-menu li:hover {
+#toplinks-nav li:hover {
 
 }
 
@@ -488,8 +486,7 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	background-image: url('images/fusscontainer.gif');
 	vertical-align: top;
 	height: 200px;
-	font-size: 11pt;
-	font-weight: bold;
+	font-size: 12px;
 }
 #fussmitte ul {
 	margin-top: 4px;
@@ -561,6 +558,16 @@ ul.menu li ul.menu li ul.menu, .sidebar li.widget_pages ul li ul li ul {
 	margin-top: 15px;
 	margin-bottom: 10px;
 	text-align: center;
+}
+
+#fusslinie .menu {
+	margin: 5px;
+}
+
+.footer-links li {
+	display: inline-block;
+	list-style-type:none;
+	margin:5px 10px;
 }
 
 #serverinfo {

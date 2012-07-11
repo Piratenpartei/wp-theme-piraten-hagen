@@ -21,19 +21,17 @@
 <body id="body">
 <div id="wrap">
 	<div id="heimathafen">
-		<?php wp_nav_menu( array( 'theme_location'=>'siteservice', 'menu_class' => 'menu', 'container' =>''  ) ); ?>
+		<?php wp_nav_menu( array( 'theme_location'=>'siteservice', 'menu_class' => 'menu', 'container' => 'nav', 'container_id' => 'heimathafen-nav'  ) ); ?>
 	</div>
 	<div id="oben">
 
 	</div>
 	<div id="toplinks">
 		<div class="toplinkstext">
-			<?php wp_nav_menu( array( 'theme_location'=>'standard', 'menu_class' => 'links-menu', 'container' =>''  ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location'=>'standard', 'menu_class' => 'links-menu', 'container' => 'nav', 'container_id' => 'toplinks-nav'  ) ); ?>
 		</div>
 	</div>
 	<div id="container">
-		<div id="links">
-			<div id="sidebar_left" class="sidebar">
-				<?php require( 'sidebar_left.php' ); ?>
-			</div>
+		<div id="links">			
+			<?php require( 'sidebar_left.php' ); ?>
 		</div>
